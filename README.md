@@ -1,2 +1,2 @@
-# Meu-cart-o-de-visitas
-Meu cartão de visitas
+Olá. Este é um pequeno projeto que fiz usando CSS, HTML e Javascript. Nele inseri uma breve apresentação e minhas princípais redes de acesso. 
+=)

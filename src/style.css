@@ -1,0 +1,60 @@
+body{
+  background: conic-gradient(orange, slateblue, brown, #B8860B, brown, #333, orange);
+  font-family: sans-serif;
+  color: white;
+  height: 100vh;
+}
+
+.card{
+  border: 1px solid #fff6;
+  width: 600px;
+  border-radius: 16px;
+  padding: 2rem;
+  
+  text-align: center;
+  background: linear-gradient(#0003, #fff3);
+  
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.perfil img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 1px solid;
+  box-shadow: 0 2px 5px black; 
+}
+
+.perfil h1{
+  font-size: 1.5rem;
+}
+
+.redes{
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.rede{
+  color: white;
+  text-decoration: none;
+  border: 1px solid;
+  padding: 0.5rem;
+  border-radius: 8px;
+  background: linear-gradient(transparent, #fff2);
+}
+
+.minibio{
+  background: linear-gradient(transparent, #fff2);
+  border: 1px solid;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
